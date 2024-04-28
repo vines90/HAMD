@@ -1,5 +1,8 @@
 import streamlit as st
 
+# 设置页面标题
+st.set_page_config(page_title="抑郁症自助检测", page_icon=":guardsman:", layout="wide")
+
 # 定义问卷题目和选项
 questions = [
     {"question": "1.抑郁心境", "options": ["没有", "仅在询问时承认", "自发地口述", "面部表情和行为均可察觉", "完全明显"]},
